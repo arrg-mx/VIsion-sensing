@@ -11,24 +11,14 @@ En este repositorio de administrarán los proyectos y sus respectivos programas 
 
 ## Objetivo
 
-Implementar un esquema de gemelos digitales en la plantaforma de desarrollo Raspuma, la cual consistura en un entorno de pruebas virtual basada en un entorno contorlado físico. La plataforma permitirá realizar pruebas e implementar algoritmos de navegación autónoma, visión artificial e inteligencia artíficial.
+Implementar el reconocimiento de objetos y de marcadores mediante análisis de imágenes, con el fin de que sea aplicada en modelos de manipulación de objetos en robots seriales y sea aplicados en esquemas de navegación en robótica móvil.
 
 ## Metas
 
-- [ ] Valoración del metapaquete desarrollado.
-- [ ] Diseño y contrucción del circuito de potencia de los motores (PCV)
-- [ ] Diseño y contrucción del circuito de sensado del robot (PCV)
-- [ ] Desarrollo de los elementos del metapaquete del robot.
-    - [ ]   description
-    - [ ]   bringup
-    - [ ]   openCV
-    - [ ]   gazebo
-    - [ ]   world
-    - [ ]   rviz
-- [ ] Pruebas de implementación de la simulación.
-- [ ] Configuración de ROS 2 Humble en las Rasberry Pi.
-- [ ] Pruebas de funcionamiento del robot.
-- [ ] Implementación del robot dentro del ambiente controlado real.
+- [ ] Implementar y configurar una imagen sobre una raspberry Pi 4 para el manejo de OpenCV.
+- [ ] Implementar el reconocimiento de patrones en OpenCV*.
+- [ ] Implementar el reconocimiento de marcadores ArucoTag y AprilTag.
+
 	
 ## Participantes
 
@@ -39,7 +29,6 @@ Implementar un esquema de gemelos digitales en la plantaforma de desarrollo Rasp
 | M.I. Erik Peña Medina | **Responsable** | ---- |
 | Ing. Zaa Ramirez | **Coresponsable** | ---- |
 | Ing. Felipe Rivas Campos | **Coresponsable** | ---- |
-| Ing. Felipe Rivas Campos | **Coresponsable** | ---- |
 | García Carrillo Fernando    | **Participante** | 2024-2 |
 | Morales Arenas Javier   | **Participante** | 2024-2 |
 
@@ -48,9 +37,10 @@ Implementar un esquema de gemelos digitales en la plantaforma de desarrollo Rasp
 
 ### ¿Dónde empezar?
 
-**Academics**
+**Vídeos**
 
-1. Josh Newans, Making a Mobile Robot with ROS - Full list of tutorials, Articulated Robotics [Blog] (https://articulatedrobotics.xyz/mobile-robot-full-list/)
-2. Peña Medina Erik, Repositorio del proyecto [Repositorio] (https://github.com/mrg-mex/Proyecto_02_semestre_2023-1).
-3. Reporte de Semestre 2023-2, se encuentra en la carpeta de documentos de este repositorio. 
+1. **Object Identification & Animal Recognition With Raspberry Pi + OpenCV + Python**[youtube_list](https://www.youtube.com/watch?v=iOTWZI4RHA8&list=PLPK2l9Knytg7O_okVr-prI1KbZ8GJeMKz).
+2. **Python-OpenCV**[youtube_list] (https://www.youtube.com/watch?v=6R_VU958jPY&list=PLBg7GSvtrU2MOLWM0bGU1_FT3LsJPyY-5)
+3. **CONTANDO OBJETOS (Aplicando Umbralización/Thersholding) en Python - OpenCV** [youtube_list] (https://www.youtube.com/watch?v=wBPIAGNTFzY&list=PLBg7GSvtrU2O3Rs233M82av6EBAwiSQPb)
+
 
